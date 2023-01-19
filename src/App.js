@@ -1,6 +1,6 @@
 
-import Expenses from "./Components/Expenses";
-
+import Expenses from "./Components/Expenses/Expenses";
+import React from "react";
 
 function App() {
   const expenses = [
@@ -30,6 +30,12 @@ function App() {
     },
   ];
 
+
+  // return React.createElement(
+
+  //   'div', {}, 
+  //   React.createElement(Expenses, {items: expenses})
+  // );
   return (
     <div>
     
