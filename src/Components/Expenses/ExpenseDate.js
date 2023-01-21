@@ -1,7 +1,8 @@
 import './ExpenseDate.css';
 import React from "react";
 
-function ExpenseDate(props) {
+//create ExpenseDate component for use multipul component
+const ExpenseDate = (props) => {
     const month = props.date.getMonth();
     const day = props.date.getDate();
     const year = props.date.getFullYear();
